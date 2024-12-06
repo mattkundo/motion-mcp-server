@@ -1,0 +1,13 @@
+{
+  "name": "motion-mcp-server",
+  "version": "1.0.0",
+  "description": "An MCP server for interacting with Motion app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@auth/core": "^0.18.1",
+    "@fastify/cors": "^8.4.1",
+    "@fastify/static": "^6
